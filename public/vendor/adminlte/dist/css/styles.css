@@ -1,0 +1,260 @@
+:root {
+    --bleu-de-france: #1daae2 !important; /* Código hexadecimal del color Bleu de France */
+}
+
+body {
+    background-color: #f1f1f1 !important;
+    font-family: 'Roboto', sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+
+/* Estilo del título */
+h1 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 1000 !important;
+    color: #1c1c1c !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 25px;
+}
+
+/* Contenedor centrado con estilo limpio */
+.table-container {
+    max-width: auto !important;
+    /* Ancho máximo */
+    margin: 50px auto !important;
+    margin-top: 0px !important;
+    margin-bottom: auto;
+    /* Centramos la tabla */
+    padding: 30px !important;
+    background-color: #ffffff !important;
+    border-radius: 15px !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+    /* Sombra suave */
+}
+
+/* Tabla estilizada */
+.table {
+    table-layout: auto !important;
+    font-size: 14px !important;
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin-top: 10px !important;
+    font-family: 'Roboto', sans-serif !important;
+    border: solid #ffffff 2px !important;
+}
+
+.table thead th {
+    background-color: #ffffff !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 500 !important;
+    padding: 15px !important;
+    text-align: center !important;
+    border-bottom: 2px solid #000000 !important;
+}
+
+/* Estilo de las filas de la tabla */
+.table tbody tr {
+    transition: background-color 0.3s ease !important;
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2 !important;
+}
+
+.table th,
+.table td {
+    padding: 12px 20px !important;
+    border: solid 1px rgb(209, 209, 209) !important;
+    vertical-align: middle !important;
+}
+
+/* Centrar el contenido de todas las columnas */
+.table tbody td {
+    text-align: center !important;
+}
+
+/* Alinear a la izquierda solo el contenido de la columna 'Nombre' */
+.table tbody td:first-child {
+    text-align: left !important;
+}
+
+
+/* Botones estilizados con bordes redondeados */
+.btn {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500 !important;
+    padding: 10px 20px !important;
+    transition: background-color 0.3s ease !important;
+    border: none !important;
+}
+
+/* Botón de éxito */
+.btn-success {
+    background-color: #28a745 !important;
+    color: white !important;
+}
+
+.btn-success:hover {
+    background-color: #388e3c !important;
+}
+
+/* Botón de editar */
+.btn-primary {
+    background-color: #ffc107 !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: #e0a800 !important;
+}
+
+/* Botón de información */
+.btn-info {
+    background-color: #17a2b8 !important;
+    color: white !important;
+}
+
+.btn-info:hover {
+    background-color: #138496 !important;
+}
+
+/* Botones más pequeños */
+.btn-sm {
+    font-size: 14px !important;
+    padding: 5px 15px !important;
+}
+
+/* Estilo para los inputs en modales */
+.form-control {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+    padding: 10px !important;
+    margin-bottom: 0px !important;
+}
+
+.form-control:focus {
+    border-color: #007bff !important;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5) !important;
+}
+
+.bg-bleu-de-france {
+    background-color: #ffffff !important; /* Bleu de France */
+}
+
+/* Estilo para el ítem activo del menú */
+.nav-link.active {
+    background-color: var(--bleu-de-france) !important; /* Fondo azul Bleu de France */
+    color: white !important; /* Color del texto en blanco */
+}
+
+/* Cambiar el color del texto cuando pasas el ratón por encima de un ítem de menú */
+.nav-link:hover {
+    color: #1daae2 !important; /* Cambia el color del texto a blanco al pasar el ratón */
+}
+
+/* Mantener el color blanco cuando el ítem esté activo y pasa el ratón */
+.nav-link.active:hover {
+    color: white !important; /* Asegura que el texto activo se mantenga blanco */
+}
+
+/* Si quieres cambiar el color del texto de las opciones activas a blanco incluso sin hover */
+.nav-link.active {
+    color: white !important; /* El texto de la opción activa es blanco */
+}
+
+label {
+    font-weight: normal !important;
+}
+
+h4 {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+h5 {
+    font-size: 25px !important;
+    font-weight: bold !important;
+    color: white;
+}
+
+.modal-title{
+    color: #ffffff !important;
+}
+
+.form-group {
+    margin-bottom: 15px !important; /* Ajusta el espacio entre los campos */
+}
+
+/* Estilos comunes para todos los modales */
+.modal-dialog {
+    margin: 30px auto !important;
+    align-items: flex-end !important;
+}
+
+.modal-header {
+    background-color: #1daae2 !important;
+    color: white !important;
+}
+
+.modal-body {
+    text-align: left !important;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.modal-backdrop.show {
+    opacity: 0.2 !important;
+}
+
+.modal-content{
+    padding: 0px !important;
+}
+
+/* Estilos específicos para cada modal */
+[id^="historialModal"] .modal-dialog {
+    max-width: 40%;
+}
+
+[id^="modalRegistrarMensualidad"] .modal-dialog {
+    max-width: 25%;
+}
+
+[id^="registrarClienteModal"] .modal-dialog {
+    max-width: 25%;
+}
+
+[id^="editVehiculoModal"] .modal-dialog {
+    max-width: 20%; 
+}
+
+[id^="modalHistorial"] .modal-dialog {
+    max-width: 90%; 
+}
+
+[id^="editClienteModal"] .modal-dialog {
+    max-width: 25%; 
+}
+
+[id^="modalRegistrarServicio"] .modal-body {
+   padding: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;  /* Centra las columnas en el eje horizontal */
+    align-items: center;      /* Centra las columnas en el eje vertical */
+    text-align: left;       /* Alinea el contenido dentro de las tarjetas */
+}
+
+.card-header {
+    background-color: #1daae2;
+    color: white;   
+    text-align: center;    /* Cambia el color del texto a blanco */ /* Alinea el texto al centro */
+}
