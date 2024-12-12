@@ -45,10 +45,8 @@ Route::resource('clientes', ClienteController::class);
 Route::resource('vehiculos', VehiculoController::class);
 Route::resource('gestion_diaria', GestionDiariaController::class);
 
-Route::put('/vehiculos/{id}', [VehiculoController::class, 'update'])->name('vehiculos.update');
 Route::resource('servicios_tiempo', ServiciosTiempoController::class);
 // Ruta para mostrar el formulario de registro de nuevo servicio
-Route::get('/servicios_tiempo/create', [ServiciosTiempoController::class, 'create'])->name('servicios_tiempo.create');
 
 // Ruta para almacenar el nuevo servicio
 Route::post('/servicios_tiempo/store', [ServiciosTiempoController::class, 'store'])->name('servicios_tiempo.store');
